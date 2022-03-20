@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rochester&family=Secular+One&display=swap');
+
+
+body{
+    background-color: black;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+h1{
+    font-family: 'Rochester';
+    display: inline-block;
+    color: white;
+    font-size: 5.5rem;
+}
+
+.shruti-heading{
+    font-size: 7.5rem;
+    font-weight: 600;
+}
+
+.animation{
+    color: #ff496c;
+}
+
+.animation:hover{
+    color: white;
+    transform: scale(1.2);
+}
+
+.animationn:hover{
+    color: #ff496c;
+    transform: scale(1.2);
+}
+
+    /* Type Writer Effect */
+    .txt-type > .txt{
+        border-right: 0.05rem solid white;      /*Cursor */
+    }
+    .txt-type{
+        color:  #ff496c;                          /*Typing effect colour*/
+        font-size: 6.5rem;
+        
+    }
+
+.bitmoji1{
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    transform: rotate(5deg);
+}
+.bitmoji2{
+    position: absolute;
+    left:5%;
+    top: 30%;
+    transform: rotate(-20deg);
+}
